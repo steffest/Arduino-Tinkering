@@ -14,7 +14,7 @@ Servo bassdrum2;
 Servo arm1;
 Servo arm2;
  
-int stepduration = 70; // miliseconds of eacht "beat" 125 = 500 miliseconds for a beat = 120 bpm
+int stepduration = 70; // miliseconds of each "beat" 125 = 500 miliseconds for a beat = 120 bpm
                         // 110 bpm: (60000/110)/4 = 136 (110,29 bpm)
                         // 100 bpm: (60000/100)/4 = 150
                         // 130 ms ->  115,38

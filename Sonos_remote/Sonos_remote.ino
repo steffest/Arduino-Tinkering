@@ -42,7 +42,7 @@ char ssid[]                 = {"Steffest Home"};   // max 32 bytes
 unsigned char security_type = 3;               // 0 - open; 1 - WEP; 2 - WPA; 3 - WPA2
 
 // WPA/WPA2 passphrase
-const prog_char security_passphrase[] PROGMEM = {"wiefiewoefie"};	// max 64 characters
+const prog_char security_passphrase[] PROGMEM = {"**********"};	// max 64 characters
 
 // WEP 128-bit keys
 unsigned char wep_keys[] = {};
