@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript" src="interface.js"></script> 
+<link rel="stylesheet" href="style.css" type="text/css" />
+	
+
+
+</head>
+<body>
+<div id="tracks">
+<div id="track1" class="track tristate">
+	<label>Bassdrum 1</label>
+	<div class="dot"   id="t1d1"></div>
+    <div class="dot"   id="t1d2"></div>
+    <div class="dot"   id="t1d3"></div>
+    <div class="dot"   id="t1d4"></div>
+    <div class="dot b" id="t1d5"></div>
+    <div class="dot b" id="t1d6"></div>
+    <div class="dot b" id="t1d7"></div>
+    <div class="dot b" id="t1d8"></div>
+    <div class="dot"   id="t1d9"></div>
+    <div class="dot"   id="t1d10"></div>
+    <div class="dot"   id="t1d11"></div>
+    <div class="dot"   id="t1d12"></div>
+    <div class="dot b" id="t1d13"></div>
+    <div class="dot b" id="t1d14"></div>
+    <div class="dot b" id="t1d15"></div>
+    <div class="dot b" id="t1d16"></div>
+</div>
+<div id="track2" class="track tristate">
+	<label>Bassdrum 2</label>
+	<div class="dot"   id="t2d1"></div>
+    <div class="dot"   id="t2d2"></div>
+    <div class="dot"   id="t2d3"></div>
+    <div class="dot"   id="t2d4"></div>
+    <div class="dot b" id="t2d5"></div>
+    <div class="dot b" id="t2d6"></div>
+    <div class="dot b" id="t2d7"></div>
+    <div class="dot b" id="t2d8"></div>
+    <div class="dot"   id="t2d9"></div>
+    <div class="dot"   id="t2d10"></div>
+    <div class="dot"   id="t2d11"></div>
+    <div class="dot"   id="t2d12"></div>
+    <div class="dot b" id="t2d13"></div>
+    <div class="dot b" id="t2d14"></div>
+    <div class="dot b" id="t2d15"></div>
+    <div class="dot b" id="t2d16"></div>
+</div>
+<div id="track3" class="track tristate">
+	<label>Horns</label>
+	<div class="dot"   id="t3d1"></div>
+    <div class="dot"   id="t3d2"></div>
+    <div class="dot"   id="t3d3"></div>
+    <div class="dot"   id="t3d4"></div>
+    <div class="dot b" id="t3d5"></div>
+    <div class="dot b" id="t3d6"></div>
+    <div class="dot b" id="t3d7"></div>
+    <div class="dot b" id="t3d8"></div>
+    <div class="dot"   id="t3d9"></div>
+    <div class="dot"   id="t3d10"></div>
+    <div class="dot"   id="t3d11"></div>
+    <div class="dot"   id="t3d12"></div>
+    <div class="dot b" id="t3d13"></div>
+    <div class="dot b" id="t3d14"></div>
+    <div class="dot b" id="t3d15"></div>
+    <div class="dot b" id="t3d16"></div>
+</div>
+<div id="track4" class="track tristate">
+	<label>Arm rotator</label>
+	<div class="dot"   id="t4d1"></div>
+    <div class="dot"   id="t4d2"></div>
+    <div class="dot"   id="t4d3"></div>
+    <div class="dot"   id="t4d4"></div>
+    <div class="dot b" id="t4d5"></div>
+    <div class="dot b" id="t4d6"></div>
+    <div class="dot b" id="t4d7"></div>
+    <div class="dot b" id="t4d8"></div>
+    <div class="dot"   id="t4d9"></div>
+    <div class="dot"   id="t4d10"></div>
+    <div class="dot"   id="t4d11"></div>
+    <div class="dot"   id="t4d12"></div>
+    <div class="dot b" id="t4d13"></div>
+    <div class="dot b" id="t4d14"></div>
+    <div class="dot b" id="t4d15"></div>
+    <div class="dot b" id="t4d16"></div>
+</div>
+<br />
+<div id="track5" class="track">
+	<label>Arm - Right</label>
+	<div class="dot"   id="t5d1"></div>
+    <div class="dot"   id="t5d2"></div>
+    <div class="dot"   id="t5d3"></div>
+    <div class="dot"   id="t5d4"></div>
+    <div class="dot b" id="t5d5"></div>
+    <div class="dot b" id="t5d6"></div>
+    <div class="dot b" id="t5d7"></div>
+    <div class="dot b" id="t5d8"></div>
+    <div class="dot"   id="t5d9"></div>
+    <div class="dot"   id="t5d10"></div>
+    <div class="dot"   id="t5d11"></div>
+    <div class="dot"   id="t5d12"></div>
+    <div class="dot b" id="t5d13"></div>
+    <div class="dot b" id="t5d14"></div>
+    <div class="dot b" id="t5d15"></div>
+    <div class="dot b" id="t5d16"></div>
+</div>
+<div id="track6" class="track">
+	<label>Arm - Left</label>
+	<div class="dot"   id="t6d1"></div>
+    <div class="dot"   id="t6d2"></div>
+    <div class="dot"   id="t6d3"></div>
+    <div class="dot"   id="t6d4"></div>
+    <div class="dot b" id="t6d5"></div>
+    <div class="dot b" id="t6d6"></div>
+    <div class="dot b" id="t6d7"></div>
+    <div class="dot b" id="t6d8"></div>
+    <div class="dot"   id="t6d9"></div>
+    <div class="dot"   id="t6d10"></div>
+    <div class="dot"   id="t6d11"></div>
+    <div class="dot"   id="t6d12"></div>
+    <div class="dot b" id="t6d13"></div>
+    <div class="dot b" id="t6d14"></div>
+    <div class="dot b" id="t6d15"></div>
+    <div class="dot b" id="t6d16"></div>
+</div>
+<div id="track7" class="track">
+	<label>Rattler</label>
+	<div class="dot"   id="t7d1"></div>
+    <div class="dot"   id="t7d2"></div>
+    <div class="dot"   id="t7d3"></div>
+    <div class="dot"   id="t7d4"></div>
+    <div class="dot b" id="t7d5"></div>
+    <div class="dot b" id="t7d6"></div>
+    <div class="dot b" id="t7d7"></div>
+    <div class="dot b" id="t7d8"></div>
+    <div class="dot"   id="t7d9"></div>
+    <div class="dot"   id="t7d10"></div>
+    <div class="dot"   id="t7d11"></div>
+    <div class="dot"   id="t7d12"></div>
+    <div class="dot b" id="t7d13"></div>
+    <div class="dot b" id="t7d14"></div>
+    <div class="dot b" id="t7d15"></div>
+    <div class="dot b" id="t7d16"></div>
+</div>
+<div id="track8" class="track">
+	<label>Shaker</label>
+	<div class="dot"   id="t8d1"></div>
+    <div class="dot"   id="t8d2"></div>
+    <div class="dot"   id="t8d3"></div>
+    <div class="dot"   id="t8d4"></div>
+    <div class="dot b" id="t8d5"></div>
+    <div class="dot b" id="t8d6"></div>
+    <div class="dot b" id="t8d7"></div>
+    <div class="dot b" id="t8d8"></div>
+    <div class="dot"   id="t8d9"></div>
+    <div class="dot"   id="t8d10"></div>
+    <div class="dot"   id="t8d11"></div>
+    <div class="dot"   id="t8d12"></div>
+    <div class="dot b" id="t8d13"></div>
+    <div class="dot b" id="t8d14"></div>
+    <div class="dot b" id="t8d15"></div>
+    <div class="dot b" id="t8d16"></div>
+</div>
+</div>
+
+<input type="text" id="pattern1" /><button value="Send" onclick="sendpattern()">Send</button>
+<iframe name="bridge" id="bridge"></iframe>
+</body>
